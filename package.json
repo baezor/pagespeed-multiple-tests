@@ -1,0 +1,27 @@
+{
+  "name": "pagespeed-multiple-tests",
+  "version": "1.0.0",
+  "description": "Automate your Google PagesPeed tests and create reports blazingly fast ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baezor/pagespeed-multiple-tests.git"
+  },
+  "keywords": [
+    "pagespeed"
+  ],
+  "author": "baezor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baezor/pagespeed-multiple-tests/issues"
+  },
+  "homepage": "https://github.com/baezor/pagespeed-multiple-tests#readme",
+  "dependencies": {
+    "csv-generate": "^4.2.1",
+    "lighthouse": "^9.6.8"
+  }
+}
